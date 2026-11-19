@@ -1,0 +1,27 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Build
+dist
+dist-ssr
+*.local
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+
+# Scratch / Extraction helpers & root PDF copies (served from public/pdfs/)
+scripts_tmp/
+*.py
+!verify_data.py
+/*.pdf
+.vercel
